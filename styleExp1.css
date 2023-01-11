@@ -1,0 +1,19 @@
+
+/* Add a “light blue” background color and some padding to the  */
+div{
+    background-color: lightblue;
+    padding: 2em;
+}
+/* 3 Do not display the that contains the text node “John”*/
+ li:first-child{
+    display: none;
+}
+/* 4 Add a border to the that contains the text node “Pete”.*/
+li:last-child{
+    border: 2px solid red;
+}
+
+/* 5  Change the font size of the whole body.*/
+body {
+    font-size: 20px;
+}
